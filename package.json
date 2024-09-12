@@ -1,0 +1,30 @@
+{
+	"name": "vv-configuration",
+	"version": "0.0.1",
+	"description": "work (read and pretty in file) configuration for service ",
+	"main": "dist/src/index.js",
+	"scripts": {
+        "test": "node ./dist/test/index.js",
+        "build": "tsc",
+        "precommit": "node ./.auto/precommit.js"
+	},
+	"keywords": [
+		"configuration"
+	],
+	"author": "Vitalii Vasilev",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.14.10",
+		"@types/oracledb": "^6.5.1",
+		"@typescript-eslint/eslint-plugin": "7.16.1",
+		"@typescript-eslint/parser": "7.16.1",
+		"eslint": "8.56.0",
+		"prettier": "3.3.3",
+		"ts-node": "10.9.2",
+		"typescript": "^5.5.4",
+		"vv-template-nodebackend": "^0.0.16"
+	},
+	"dependencies": {
+		"vv-common": "^0.2.1"
+	}
+}
