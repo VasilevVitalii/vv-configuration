@@ -17,10 +17,10 @@ MIT
 
 ## Install
 ```bash
-npm i vv-configurator
+npm i vv-configuration
 ```
 ```typescript
-import { GetConfVomlSync, SetConfVomlSync, TConfVoml } from 'vv-configurator'
+import { GetConfVomlSync, SetConfVomlSync, TConfVoml } from 'vv-configuration'
 ```
 ## Functions
 * GetConfVomlSync - sync read (and pretty update) conf file

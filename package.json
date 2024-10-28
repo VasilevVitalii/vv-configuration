@@ -1,6 +1,6 @@
 {
 	"name": "vv-configuration",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "work (read and pretty in file) configuration for service ",
 	"main": "dist/src/index.js",
 	"scripts": {
